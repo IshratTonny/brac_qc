@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ba9a590e-b6f9-45c5-978a-974465bac1d6" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="ProjectId" id="1SBIS6QgAxBqHQWNbpT0sncTBWV" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\xampp\htdocs\brac_qc\application\views\forms" />
+      <recent name="C:\xampp\htdocs\brac_qc\application\views\forms" />
+      <recent name="C:\xampp\htdocs\brac_qc\application\views" />
+      <recent name="C:\xampp\htdocs\brac_qc\application\controllers" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ba9a590e-b6f9-45c5-978a-974465bac1d6" name="Default" comment="" />
+      <created>1523425164304</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523425164304</updated>
+      <workItem from="1523425171840" duration="5851000" />
+      <workItem from="1523440417231" duration="4077000" />
+      <workItem from="1523505712374" duration="4902000" />
+      <workItem from="1523766590265" duration="276000" />
+      <workItem from="1523871842574" duration="2990000" />
+      <workItem from="1523941486319" duration="5357000" />
+      <workItem from="1523950605754" duration="6793000" />
+      <workItem from="1523967791886" duration="2578000" />
+      <workItem from="1524028482197" duration="8418000" />
+      <workItem from="1524113075029" duration="21176000" />
+      <workItem from="1524373687635" duration="1051000" />
+      <workItem from="1524377132011" duration="22554000" />
+      <workItem from="1524457469104" duration="2920000" />
+      <workItem from="1524471300582" duration="14805000" />
+      <workItem from="1524486295180" duration="7000" />
+      <workItem from="1524544921378" duration="34000" />
+      <workItem from="1524551465912" duration="732000" />
+      <workItem from="1524559500166" duration="5647000" />
+      <workItem from="1524633106276" duration="116000" />
+      <workItem from="1530012818568" duration="2856000" />
+      <workItem from="1542698663311" duration="606000" />
+      <workItem from="1545134718001" duration="754000" />
+      <workItem from="1545193806991" duration="624000" />
+      <workItem from="1555837169787" duration="599000" />
+      <workItem from="1571030560397" duration="15842000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
