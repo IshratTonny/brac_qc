@@ -9,6 +9,45 @@
 
     <title>Brac QC - Dashboard</title>
 
+<style>
+
+
+
+
+    .my-custom-scrollbar {
+
+        height: 200px;
+        overflow: auto;
+        width: 50%;
+    }
+    .my-custom_2-scrollbar {
+
+        height: 200px;
+        overflow: auto;
+        width: 100%;
+
+    }
+    .table-wrapper-scroll-y {
+
+        float: right;
+
+    }
+    .table_2-wrapper-scroll-y {
+
+        float: left;
+
+    }
+
+    tr:hover td {background:#808080}
+
+    tr.active td { background-color: #8fc3f7;}
+    tr.active_2 td { background-color: #8fc3f7;}
+    tr.yellow td { background-color: #8fc3f7;}
+
+
+
+
+</style>
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Arimo:400,700,400italic">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/fonts/linecons/css/linecons.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/fonts/fontawesome/css/font-awesome.min.css">
@@ -18,6 +57,26 @@
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/xenon-components.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/xenon-skins.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/custom.css">
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/js/select2/custom.css">
+
+
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Arimo:400,700,400italic">
+    <link rel="stylesheet" href="assets/css/fonts/linecons/css/linecons.css">
+    <link rel="stylesheet" href="assets/css/fonts/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/xenon-core.css">
+    <link rel="stylesheet" href="assets/css/xenon-forms.css">
+    <link rel="stylesheet" href="assets/css/xenon-components.css">
+    <link rel="stylesheet" href="assets/css/xenon-skins.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <script src="assets/js/jquery-1.11.1.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
     <script src="<?php echo base_url(); ?>assets/js/jquery-1.11.1.min.js"></script>
 
@@ -30,7 +89,7 @@
 <body class="page-body">
     <div class="settings-pane">
 
-        <a href="#" data-toggle="settings-pane" data-animate="true">
+        <a href="#" ta-toggle="settings-pane" data-animate="true">
             &times;
         </a>
 
@@ -316,5 +375,41 @@
     <!-- Imported scripts on this page -->
     <script src="<?php echo base_url(); ?>assets/js/inputmask/jquery.inputmask.bundle.js"></script>
     <script src="<?php echo base_url(); ?>assets/js/jquery-validate/jquery.validate.min.js"></script>
+
+
+    <!-- Imported scripts on this page -->
+    <!-- for this line have some problem occure in search box -->
+    <script src="<?php echo base_url()?>assets/js/datatables/dataTables.bootstrap.js"></script>
+
+   <!-- ad something new here -->
+
+
+    <!-- Imported styles on this page -->
+    <link rel="stylesheet" href="<?php echo base_url()?>assets_1/js/datatables/dataTables.bootstrap.css">
+
+    <!-- Bottom Scripts -->
+    <script src="<?php echo base_url()?>assets_1/js/bootstrap.min.js"></script>
+    <script src="<?php echo base_url()?>assets_1/js/TweenMax.min.js"></script>
+    <script src="<?php echo base_url()?>assets_1/js/resizeable.js"></script>
+    <script src="<?php echo base_url()?>assets_1/js/joinable.js"></script>
+    <script src="<?php echo base_url()?>assets_1/js/xenon-api.js"></script>
+    <script src="<?php echo base_url()?>assets_1/js/xenon-toggles.js"></script>
+    <script src="<?php echo base_url()?>assets_1/js/datatables/js/jquery.dataTables.min.js"></script>
+
+
+    <!-- Imported scripts on this page -->
+    <script src="<?php echo base_url()?>assets_1/js/datatables/dataTables.bootstrap.js"></script>
+    <script src="<?php echo base_url()?>assets_1/js/datatables/yadcf/jquery.dataTables.yadcf.js"></script>
+    <script src="<?php echo base_url()?>assets_1/js/datatables/tabletools/dataTables.tableTools.min.js"></script>
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>

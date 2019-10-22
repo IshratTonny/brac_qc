@@ -784,6 +784,8 @@ class CI_Session {
 	 */
 	public function set_userdata($data, $value = NULL)
 	{
+
+	    //main_menu', 'admin console
 		if (is_array($data))
 		{
 			foreach ($data as $key => &$value)

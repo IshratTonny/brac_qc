@@ -22,9 +22,5 @@ class Home extends CI_Controller
         $data['main_content'] = 'vw_home/vw_home';
         $this->load->view('vw_master', $data);
     }
-    public function from_manage()
-    {
-        echo("testing from manage");
-    }
 
 }

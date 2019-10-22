@@ -18,3 +18,5 @@ ERROR - 14-10-2019 07:32:34 --> 404 Page Not Found: Forms/manage_grading_policy
 ERROR - 14-10-2019 07:33:12 --> 404 Page Not Found: Forms/new_evaluation_form
 ERROR - 14-10-2019 07:33:26 --> 404 Page Not Found: Forms/new_evaluation_form
 ERROR - 14-10-2019 07:34:55 --> 404 Page Not Found: Forms/new_evaluation_form
+ERROR - 14-10-2019 13:45:41 --> 404 Page Not Found: Forms/from_manage
+ERROR - 14-10-2019 13:47:51 --> 404 Page Not Found: Forms/from_manage

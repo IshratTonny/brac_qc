@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba9a590e-b6f9-45c5-978a-974465bac1d6" name="Default" comment="" />
+    <list default="true" id="ba9a590e-b6f9-45c5-978a-974465bac1d6" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/application/controllers/Task.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/vw_admin_console/vw_execution_manage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/vw_admin_console/vw_initiation_manage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/Forms.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/Home.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/logs/log-2019-10-14.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/logs/log-2019-10-14.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/models/Auth_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/Auth_model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/forms/add_evaluation_form.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/forms/add_evaluation_form_f1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/forms/add_evaluation_form_m1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/forms/add_evaluation_form_m2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/forms/add_evaluation_form_m3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/forms/manage_evaluation_form.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/vw_admin_console/vw_menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/vw_admin_console/vw_menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/vw_master.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/vw_master.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/libraries/Session/Session.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/libraries/Session/Session.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,10 +33,14 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1SBIS6QgAxBqHQWNbpT0sncTBWV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../xenon_new" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -73,11 +96,52 @@
       <workItem from="1545134718001" duration="754000" />
       <workItem from="1545193806991" duration="624000" />
       <workItem from="1555837169787" duration="599000" />
-      <workItem from="1571030560397" duration="15842000" />
+      <workItem from="1571030560397" duration="17283000" />
+      <workItem from="1571114313912" duration="1324000" />
+      <workItem from="1571118331791" duration="8526000" />
+      <workItem from="1571209975934" duration="8984000" />
+      <workItem from="1571287227838" duration="15713000" />
+      <workItem from="1571397636204" duration="1804000" />
+      <workItem from="1571409896248" duration="603000" />
+      <workItem from="1571411831661" duration="1404000" />
+      <workItem from="1571413812824" duration="612000" />
+      <workItem from="1571471491668" duration="599000" />
+      <workItem from="1571473393601" duration="599000" />
+      <workItem from="1571476472185" duration="1540000" />
+      <workItem from="1571478415197" duration="1776000" />
+      <workItem from="1571480232179" duration="1515000" />
+      <workItem from="1571482479877" duration="1206000" />
+      <workItem from="1571487455494" duration="1861000" />
+      <workItem from="1571495920783" duration="1789000" />
+      <workItem from="1571497804956" duration="1905000" />
+      <workItem from="1571499980063" duration="965000" />
+      <workItem from="1571502161102" duration="1786000" />
+      <workItem from="1571504084268" duration="1884000" />
+      <workItem from="1571506002430" duration="1838000" />
+      <workItem from="1571507887018" duration="2156000" />
+      <workItem from="1571510079245" duration="2372000" />
+      <workItem from="1571512650574" duration="1800000" />
+      <workItem from="1571514509303" duration="1822000" />
+      <workItem from="1571551074681" duration="21220000" />
+      <workItem from="1571645777836" duration="4971000" />
+      <workItem from="1571718043170" duration="20593000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

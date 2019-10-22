@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="<?php echo base_url(); ?>assets/js/select2/select2.css">
+<link rel="stylesheet" href="<?php echo base_url(); ?>assets/js/datatables/dataTables.bootstrap.css">
 <div class="page-title">
 	<div class="title-env">
 		<h1 class="title">Menu List</h1>
@@ -104,7 +106,8 @@
 		</div>
 	</div>
 </div>
-
+<script src="<?php echo base_url(); ?>assets/js/select2/select2.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/datatables/js/jquery.dataTables.js"></script>
 <script type="text/javascript">
 $(document).ready(function($) {
 	$("#example-1").dataTable({

@@ -12,6 +12,57 @@ class Auth_model extends CI_Model
         parent::__construct();
     }
 
+    public  function  get_all_item()
+    {
+        $this->db->select('*');
+        $this->db->from('item_tbl');
+        $this->db->order_by('item_id', 'ASC');
+        $data = $this->db->get();
+        return $data->result();
+    }
+public  function  get_all_product()
+{
+    $this->db->select('*');
+    $this->db->from('product_tbl');
+    $this->db->order_by('product_id', 'ASC');
+    $data = $this->db->get();
+    return $data->result();
+}
+
+    public function get_item($name)
+    {
+
+        //echo ($name);
+        $this->db->select('*');
+        $this->db->from('item_tbl');
+        $this->db->join('product_tbl','product_tbl.product_id=item_tbl.product_id','natural join');
+        $this->db->where('product_name',$name);
+        $data = $this->db->get();
+        return $data->result();
+
+    }
+
+
+    public function get_product($name)
+    {
+
+        $this->db->select('product_tbl.product_name');
+        $this->db->from('product_tbl');
+        $this->db->join('category_tbl','product_tbl.category_id=category_tbl.category_id','natural join');
+        $this->db->where('category_name',$name);
+        $data = $this->db->get();
+        return $data->result();
+
+    }
+    public function get_category()
+    {
+        $this->db->select('*');
+        $this->db->from('category_tbl');
+        $this->db->order_by('category_id', 'ASC');
+        $data = $this->db->get();
+        return $data->result();
+    }
+
     public function list_menu() {
 		$this->db->select('a.*');
 		$this->db->from('tbl_menu a');
