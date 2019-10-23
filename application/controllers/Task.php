@@ -19,11 +19,12 @@ class Task extends CI_Controller
     {
 
         $this->session->set_userdata('sub_menu', 'Initiation');
-        $data['all_category'] = $this->auth_model->get_category();
-        $data['get_all_product'] = $this->auth_model->get_all_product();
-        $data['get_all_item'] = $this->auth_model->get_all_item();
+         $data['all_category'] = $this->auth_model->get_category();
+        $data['all_product'] = $this->auth_model->get_all_product();
+       $data['all_item'] = $this->auth_model->get_all_item();
         $data['alert_msg'] = 'inc/message.php';
-        $data['main_content'] = 'vw_admin_console/vw_initiation_manage';
+     //   $data['main_content'] = 'vw_admin_console/vw_initiation_manage';
+        $data['main_content'] = 'vw_admin_console/vw_initiation';
         $this->load->view('vw_master', $data);
 
     }
@@ -53,11 +54,11 @@ class Task extends CI_Controller
     public function execution_manage()
     {
 
-        $this->session->set_userdata('sub_menu', 'Initiation');
-        $data['all_category'] = $this->auth_model->get_category();
-        $data['alert_msg'] = 'inc/message.php';
-        $data['main_content'] = 'vw_admin_console/vw_execution_manage';
-        $this->load->view('vw_master', $data);
+      //  $this->session->set_userdata('sub_menu', 'Initiation');
+       // $data['all_category'] = $this->auth_model->get_category();
+      //  $data['alert_msg'] = 'inc/message.php';
+       // $data['main_content'] = 'vw_admin_console/vw_execution_manage';
+       // $this->load->view('vw_master', $data);
 
     }
 

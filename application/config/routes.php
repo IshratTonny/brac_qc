@@ -51,8 +51,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $route['default_controller'] = 'home';
 $route['from_manage'] = 'forms/from_manage';
-$route['execution_manage'] = 'task/execution_manage';
-$route['initiation_manage'] = 'task/initiation_manage';
+
 
 $route['login'] = 'login/login';
 $route['404_override'] = '';

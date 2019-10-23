@@ -9,68 +9,21 @@
 
     <title>Brac QC - Dashboard</title>
 
-<style>
-
-
-
-
-    .my-custom-scrollbar {
-
-        height: 200px;
-        overflow: auto;
-        width: 50%;
-    }
-    .my-custom_2-scrollbar {
-
-        height: 200px;
-        overflow: auto;
-        width: 100%;
-
-    }
-    .table-wrapper-scroll-y {
-
-        float: right;
-
-    }
-    .table_2-wrapper-scroll-y {
-
-        float: left;
-
-    }
-
-    tr:hover td {background:#808080}
-
-    tr.active td { background-color: #8fc3f7;}
-    tr.active_2 td { background-color: #8fc3f7;}
-    tr.yellow td { background-color: #8fc3f7;}
-
-
-
-
-</style>
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Arimo:400,700,400italic">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/fonts/linecons/css/linecons.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/fonts/fontawesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/bootstrap.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/xenon-core.css">
-    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/xenon-forms.css">
+
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/xenon-components.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/xenon-skins.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/custom.css">
-    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/js/select2/custom.css">
+
+    <script src="<?php echo base_url(); ?>assets/js/jquery-1.11.1.min.js"></script>
 
 
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Arimo:400,700,400italic">
-    <link rel="stylesheet" href="assets/css/fonts/linecons/css/linecons.css">
-    <link rel="stylesheet" href="assets/css/fonts/fontawesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.css">
-    <link rel="stylesheet" href="assets/css/xenon-core.css">
-    <link rel="stylesheet" href="assets/css/xenon-forms.css">
-    <link rel="stylesheet" href="assets/css/xenon-components.css">
-    <link rel="stylesheet" href="assets/css/xenon-skins.css">
-    <link rel="stylesheet" href="assets/css/custom.css">
 
-    <script src="assets/js/jquery-1.11.1.min.js"></script>
+
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -311,28 +264,8 @@
             <!-- Choose between footer styles: "footer-type-1" or "footer-type-2" -->
             <!-- Add class "sticky" to  always stick the footer to the end of page (if page contents is small) -->
             <!-- Or class "fixed" to  always fix the footer to the end of page -->
-            <footer class="main-footer sticky footer-type-1">
-
-                <div class="footer-inner">
-
-                    <!-- Add your copyright text here -->
-                    <div class="footer-text">
-                        <a href="">© 2018 All Rights Reserved. Designed and Developed by Appinion BD Limited.</a>
-                    </div>
 
 
-                    <!-- Go to Top Link, just add rel="go-top" to any link to add this functionality -->
-                    <div class="go-up">
-
-                        <a href="#" rel="go-top">
-                            <i class="fa-angle-up"></i>
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </footer>
         </div>
 
     </div>
@@ -399,8 +332,14 @@
 
     <!-- Imported scripts on this page -->
     <script src="<?php echo base_url()?>assets_1/js/datatables/dataTables.bootstrap.js"></script>
+    <script src="<?php echo base_url()?>assets/js/datatables/dataTables.bootstrap.js"></script>
     <script src="<?php echo base_url()?>assets_1/js/datatables/yadcf/jquery.dataTables.yadcf.js"></script>
     <script src="<?php echo base_url()?>assets_1/js/datatables/tabletools/dataTables.tableTools.min.js"></script>
+
+
+<!-- inistion data table -->	<!-- Imported styles on this page -->
+    <link rel="stylesheet" href="<?php echo base_url()?>assets/js/datatables/dataTables.bootstrap.css">
+
 
 
 

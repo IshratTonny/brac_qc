@@ -2,24 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba9a590e-b6f9-45c5-978a-974465bac1d6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/application/controllers/Task.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/views/vw_admin_console/vw_execution_manage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/views/vw_admin_console/vw_initiation_manage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/vw_admin_console/vw_initiation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/Forms.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/Home.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/logs/log-2019-10-14.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/logs/log-2019-10-14.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/models/Auth_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/Auth_model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/forms/add_evaluation_form.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/forms/add_evaluation_form_f1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/forms/add_evaluation_form_m1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/forms/add_evaluation_form_m2.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/forms/add_evaluation_form_m3.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/forms/manage_evaluation_form.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/vw_admin_console/vw_menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/vw_admin_console/vw_menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/Task.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Task.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/vw_admin_console/vw_initiation_manage.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/vw_admin_console/vw_initiation_manage.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/views/vw_master.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/vw_master.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/libraries/Session/Session.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/libraries/Session/Session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/bootstrap.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -125,6 +114,7 @@
       <workItem from="1571551074681" duration="21220000" />
       <workItem from="1571645777836" duration="4971000" />
       <workItem from="1571718043170" duration="20593000" />
+      <workItem from="1571804724871" duration="21224000" />
     </task>
     <servers />
   </component>

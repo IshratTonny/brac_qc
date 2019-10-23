@@ -33,7 +33,7 @@
                     <?php foreach($all_category as $category): ?>
 
                         <tr >
-                        <td class="texting " ><?php echo $category->category_name; ?></td>
+                        <td class="texting" ><?php echo $category->category_name; ?></td>
                         </tr>
                     </thead>
                     <?php endforeach; ?>
@@ -233,7 +233,7 @@
                         <th bgcolor="black" >STATUS</th>
                         <th bgcolor="black">ACTION</th>
                     </tr>
-
+                    </tbody>
                     <?php foreach($get_all_item as $item): ?>
 
                         <tr>
@@ -258,6 +258,7 @@
 
         </div>
 
+
         </div>
 
 
@@ -267,4 +268,54 @@
         </table>
 
     </div>
+    <div >
+        <h1></h1>
+    </div>
+    <button class="delet_button_position" type="button">DELETE ITEMS</button>
 </div>
+<style>
+.my-custom-scrollbar
+{
+
+height: 180px;
+overflow: auto;
+width: 50%;
+
+}
+.my-custom_2-scrollbar {
+
+height: 180px;
+overflow: auto;
+width: 100%;
+
+}
+.table-wrapper-scroll-y {
+
+float: right;
+
+}
+.table_2-wrapper-scroll-y {
+
+float: left;
+
+}
+.delet_button_position {
+
+background-color: black;
+float: right;
+height:30px;
+width:120px;
+
+
+left: 50px;
+right: 50px;
+bottom: -191px;
+
+}
+
+tr:hover td {background:#808080}
+
+tr.active td { background-color: #8fc3f7;}
+tr.active_2 td { background-color: #8fc3f7;}
+tr.yellow td { background-color: #8fc3f7;}
+</style>
