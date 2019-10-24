@@ -31,9 +31,10 @@ class Task extends CI_Controller
     public function ajax_call_for_product()
     {
 
-        $data['catagory_select'] = $_POST['category_name'];
-        $data['all_product'] = $this->auth_model->get_product($data['catagory_select']);
+        $data['catagory_id'] = $_POST['category_id'];
+        $data['all_product'] = $this->auth_model->get_product($data['catagory_id']);
         echo json_encode($data['all_product']);
+
 
 
 
@@ -42,9 +43,11 @@ class Task extends CI_Controller
     {
 
 
-        $data['product_select'] = $_POST['product_name'];
-        $data['all_item'] = $this->auth_model->get_item($data['product_select']);
+        $data['product_select_id'] = $_POST['product_id'];
+        $data['all_item'] = $this->auth_model->get_item($data['product_select_id']);
         echo json_encode($data['all_item']);
+
+
 
 
 

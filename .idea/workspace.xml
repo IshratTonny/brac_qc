@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba9a590e-b6f9-45c5-978a-974465bac1d6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/application/views/vw_admin_console/vw_initiation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/routes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/controllers/Task.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Task.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/logs/log-2019-10-23.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/logs/log-2019-10-23.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/models/Auth_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/Auth_model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/vw_admin_console/vw_initiation.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/vw_admin_console/vw_initiation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/views/vw_admin_console/vw_initiation_manage.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/vw_admin_console/vw_initiation_manage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/vw_master.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/vw_master.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/bootstrap.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +28,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../xenon_new" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -114,7 +113,8 @@
       <workItem from="1571551074681" duration="21220000" />
       <workItem from="1571645777836" duration="4971000" />
       <workItem from="1571718043170" duration="20593000" />
-      <workItem from="1571804724871" duration="21224000" />
+      <workItem from="1571804724871" duration="22232000" />
+      <workItem from="1571891643289" duration="19880000" />
     </task>
     <servers />
   </component>

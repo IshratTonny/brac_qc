@@ -1404,3 +1404,4 @@ ERROR - 23-10-2019 08:26:41 --> 404 Page Not Found: Assets/js
 ERROR - 23-10-2019 08:26:41 --> 404 Page Not Found: Assets/js
 ERROR - 23-10-2019 08:26:42 --> 404 Page Not Found: Assets/js
 ERROR - 23-10-2019 08:26:42 --> 404 Page Not Found: Assets/js
+ERROR - 23-10-2019 13:50:40 --> Severity: error --> Exception: syntax error, unexpected ';' C:\xampp\htdocs\brac_qc\application\views\vw_admin_console\vw_initiation.php 99

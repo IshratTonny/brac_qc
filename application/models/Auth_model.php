@@ -16,7 +16,7 @@ class Auth_model extends CI_Model
     {
         $this->db->select('*');
         $this->db->from('item_tbl');
-        $this->db->order_by('item_id', 'ASC');
+        $this->db->order_by('item_id', 'DESC');
         $data = $this->db->get();
         return $data->result();
     }
@@ -24,38 +24,40 @@ public  function  get_all_product()
 {
     $this->db->select('*');
     $this->db->from('product_tbl');
-    $this->db->order_by('product_id', 'ASC');
     $data = $this->db->get();
     return $data->result();
 }
 
-    public function get_item($name)
+    public function get_item($product_id)
     {
 
-        //echo ($name);
+
         $this->db->select('*');
         $this->db->from('item_tbl');
         $this->db->join('product_tbl','product_tbl.product_id=item_tbl.product_id','natural join');
-        $this->db->where('product_name',$name);
+        $this->db->where('item_tbl.product_id',$product_id);
         $data = $this->db->get();
+
         return $data->result();
 
     }
 
 
-    public function get_product($name)
+    public function get_product($category_id)
     {
 
-        $this->db->select('product_tbl.product_name');
+
+        $this->db->select('*');
         $this->db->from('product_tbl');
         $this->db->join('category_tbl','product_tbl.category_id=category_tbl.category_id','natural join');
-        $this->db->where('category_name',$name);
+        $this->db->where('product_tbl.category_id',$category_id);
         $data = $this->db->get();
         return $data->result();
 
     }
     public function get_category()
     {
+
         $this->db->select('*');
         $this->db->from('category_tbl');
         $this->db->order_by('category_id', 'ASC');

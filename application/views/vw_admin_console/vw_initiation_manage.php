@@ -188,7 +188,7 @@
                 <table class="table table-bordered table-striped mb-0"  id='records_table'  >
 
                     <tr>
-                        <th  bgcolor="black">Product Group</th>
+                        <th bgcolor="black" >Product Group</th>
 
                     </tr>
                     <tbody>
