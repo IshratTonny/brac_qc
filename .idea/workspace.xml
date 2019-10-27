@@ -3,11 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ba9a590e-b6f9-45c5-978a-974465bac1d6" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/routes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/controllers/Task.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Task.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/logs/log-2019-10-23.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/logs/log-2019-10-23.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/models/Auth_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/Auth_model.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/views/vw_admin_console/vw_initiation.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/vw_admin_console/vw_initiation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/vw_admin_console/vw_initiation_manage.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/vw_admin_console/vw_initiation_manage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/vw_master.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/vw_master.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +113,10 @@
       <workItem from="1571645777836" duration="4971000" />
       <workItem from="1571718043170" duration="20593000" />
       <workItem from="1571804724871" duration="22232000" />
-      <workItem from="1571891643289" duration="20480000" />
+      <workItem from="1571891643289" duration="20481000" />
+      <workItem from="1571918060292" duration="2000" />
+      <workItem from="1572150494545" duration="1802000" />
+      <workItem from="1572159268443" duration="15687000" />
     </task>
     <servers />
   </component>

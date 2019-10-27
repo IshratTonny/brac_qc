@@ -51,7 +51,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $route['default_controller'] = 'home';
 $route['from_manage'] = 'forms/from_manage';
-
+$route['ajax_call_for_category'] = 'task/ajax_call_for_category';
+$route['ajax_call_for_product'] = 'task/ajax_call_for_product';
+$route['ajax_call_for_item'] = 'task/ajax_call_for_item';
 
 $route['login'] = 'login/login';
 $route['404_override'] = '';
