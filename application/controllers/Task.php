@@ -15,11 +15,11 @@ class Task extends CI_Controller
         $this->load->model('auth_model');
     }
 
+
     public function initiation_manage()
     {
 
         $this->session->set_userdata('sub_menu', 'Initiation');
-         //$data['all_category'] = $this->auth_model->get_category();
        $data['all_product'] = $this->auth_model->get_all_product();
        $data['all_item'] = $this->auth_model->get_all_item();
         $data['alert_msg'] = 'inc/message.php';
@@ -40,7 +40,6 @@ class Task extends CI_Controller
                 $temp = array();
                 $category_name = $row->category_name;
                 $category_id = $row->category_id;
-                $product_list = site_url('ajax_call_for_product/').$category_id;
                 $category_name_id= "<a onclick=\" find_product($category_id)\">$category_name</a>";
 
                  array_push($temp, $category_name_id);
@@ -98,12 +97,6 @@ class Task extends CI_Controller
     {
 
 
-       // $data['product_select_id'] = $_POST['product_id'];
-      //  $data['all_item'] = $this->auth_model->get_item($data['product_select_id']);
-      //  echo json_encode($data['all_item']);
-
-
-
         $product_select_id = $_POST['product_id'];
 
         $all_item = $this->auth_model->get_item($product_select_id);
@@ -112,19 +105,25 @@ class Task extends CI_Controller
         {
             foreach (  $all_item as $row)
             {
+
                 $temp = array();
                 $item_name = $row->item_name;
                 $item_id = $row->item_id;
                 $item_status = $row->item_status;
                 $box=" <input type=\"checkbox\" name=\"foo\" value=\"bar1\"> <br/>";
-               // $product_name_id= "<a onclick=\" find_item($product_id)\">$product_name</a>";
                 $view_btn = " <a href=\"#\" class=\"btn btn-info btn-sm btn-icon icon-left\">
                                 VIEW
                             </a>";
+                $delet_btn = "<a href=\"#\" class=\"btn btn-danger btn-sm btn-icon icon-left\"      >
+										Delete
+									</a>";
+                $delet_item = "<p1 onclick=\"delete_item($item_id, $product_select_id)\">$delet_btn</p1>";
+                $action = " $view_btn    $delet_item";
                 array_push($temp,   $box);
                 array_push($temp,  $item_name);
                 array_push($temp,  $item_status);
-                array_push($temp,   $view_btn);
+                array_push($temp,    $action );
+
                 array_push($data, $temp);
 
             }
@@ -145,7 +144,71 @@ class Task extends CI_Controller
 
 
     }
+public  function  ajax_call_for_item_delete()
+{
 
+    $item_select_id = $_POST['item_id'];
+    $product_select_id= $_POST['product_id'];
+    if($this->auth_model->delete_item($item_select_id)>0)
+    {
+        $all_item =  $this->auth_model->get_item($product_select_id);
+        $data = array();
+        if( $all_item)
+        {
+            foreach (  $all_item as $row)
+            {
+
+                $temp = array();
+                $item_name = $row->item_name;
+                $item_id = $row->item_id;
+                $item_status = $row->item_status;
+                $box=" <input type=\"checkbox\" name=\"foo\" value=\"bar1\"> <br/>";
+                $view_btn = " <a href=\"#\" class=\"btn btn-info btn-sm btn-icon icon-left\">
+                                VIEW
+                            </a>";
+                $delet_btn = "<a href=\"#\" class=\"btn btn-danger btn-sm btn-icon icon-left\"      >
+										Delete
+									</a>";
+                $delet_item = "<p1 onclick=\"delete_item($item_id,$product_select_id)\">$delet_btn</p1>";
+                $action = " $view_btn    $delet_item";
+                array_push($temp,   $box);
+                array_push($temp,  $item_name);
+                array_push($temp,  $item_status);
+                array_push($temp,    $action );
+
+                array_push($data, $temp);
+
+            }
+            echo json_encode(array('data'=>$data));
+
+        }
+        else
+            {
+            echo '{
+                    "sEcho": 1,
+                    "iTotalRecords": "0",
+                    "iTotalDisplayRecords": "0",
+                    "aaData": []
+                }';
+        }
+
+
+
+
+    }
+
+
+}
+public  function edit_items()
+{
+
+    $this->session->set_userdata('sub_menu', 'Initiation');
+    $data['alert_msg'] = 'inc/message.php';
+    $data['main_content'] = 'vw_admin_console/vw_edit_item';
+    $this->load->view('vw_master', $data);
+
+
+}
 
     public function execution_manage()
     {

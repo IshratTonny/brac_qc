@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba9a590e-b6f9-45c5-978a-974465bac1d6" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/application/views/vw_admin_console/vw_edit_item.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/routes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/controllers/Task.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Task.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/models/Auth_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/Auth_model.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/views/vw_admin_console/vw_initiation.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/vw_admin_console/vw_initiation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/views/vw_master.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/vw_master.php" afterDir="false" />
     </list>
@@ -27,7 +29,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tonny1" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -116,7 +118,8 @@
       <workItem from="1571891643289" duration="20481000" />
       <workItem from="1571918060292" duration="2000" />
       <workItem from="1572150494545" duration="1802000" />
-      <workItem from="1572159268443" duration="15687000" />
+      <workItem from="1572159268443" duration="16006000" />
+      <workItem from="1572323305000" duration="20745000" />
     </task>
     <servers />
   </component>

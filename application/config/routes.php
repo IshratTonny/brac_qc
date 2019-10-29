@@ -54,7 +54,8 @@ $route['from_manage'] = 'forms/from_manage';
 $route['ajax_call_for_category'] = 'task/ajax_call_for_category';
 $route['ajax_call_for_product'] = 'task/ajax_call_for_product';
 $route['ajax_call_for_item'] = 'task/ajax_call_for_item';
-
+$route['ajax_call_for_item_delete'] = 'task/ajax_call_for_item_delete';
+$route['edit_items'] = 'task/edit_items';
 $route['login'] = 'login/login';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

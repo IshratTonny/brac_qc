@@ -72,6 +72,12 @@ public  function  get_all_product()
 		$data = $this->db->get();
 		return $data->result();
 	}
+	public function delete_item($item_select_id)
+    {
+        $this->db->where('item_id', $item_select_id);
+        $this->db->delete('item_tbl');
+        return $this->db->affected_rows();
+    }
 
 	public function save_menu() {
 		$menu_label = $this->input->post('menu_label');
