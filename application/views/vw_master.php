@@ -19,14 +19,21 @@
     <![endif]-->
 
 
+<!-- add for horizontal bar css -->
 
 
 
 
+    <script src="<?php echo base_url(); ?>assets_1/js/jquery-1.11.1.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
 
-
-
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/refactor_css/Index.css">
 
 
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Arimo:400,700,400italic">
@@ -38,6 +45,8 @@
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/xenon-components.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/xenon-skins.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/custom.css">
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/xenon-forms.css">
+
 
     <script src="<?php echo base_url(); ?>assets/js/jquery-1.11.1.min.js"></script>
 
@@ -294,10 +303,10 @@
 
 
 
-
     <!-- Page Loading Overlay -->
     <div class="page-loading-overlay">
         <div class="loader-2"></div>
+
     </div>
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/js/select2/select2.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/js/select2/select2-bootstrap.css">
@@ -310,6 +319,10 @@
     <script src="<?php echo base_url(); ?>assets/js/joinable.js"></script>
     <script src="<?php echo base_url(); ?>assets/js/xenon-api.js"></script>
     <script src="<?php echo base_url(); ?>assets/js/xenon-toggles.js"></script>
+
+    <script src="<?php echo base_url(); ?>assets/js/tagsinput/bootstrap-tagsinput.min.js"></script>
+
+
 
     <!-- Imported scripts on this page -->
     <script src="<?php echo base_url(); ?>assets/js/select2/select2.min.js"></script>
@@ -368,8 +381,19 @@
 <!-- add something new -->
 
 
+    <!-- Bottom Scripts -->
+    <script src="<?php echo base_url()?>assets_1/js/bootstrap.min.js"></script>
+    <script src="<?php echo base_url()?>assets_1/js/TweenMax.min.js"></script>
+    <script src="<?php echo base_url()?>assets_1/js/resizeable.js"></script>
+    <script src="<?php echo base_url()?>assets_1/js/joinable.js"></script>
+    <script src="<?php echo base_url()?>assets_1/js/xenon-api.js"></script>
+    <script src="<?php echo base_url()?>assets_1/js/xenon-toggles.js"></script>
 
-   
+
+    <!-- JavaScripts initializations and stuff -->
+    <script src="assets/js/xenon-custom.js"></script>
+
+
 
 
 </body>

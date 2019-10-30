@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba9a590e-b6f9-45c5-978a-974465bac1d6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/application/views/vw_admin_console/vw_edit_item.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/panels/vw_design.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/refactor_css/Index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/Task.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Task.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/models/Auth_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/Auth_model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/vw_admin_console/vw_initiation.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/vw_admin_console/vw_initiation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/vw_admin_console/vw_edit_item.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/vw_admin_console/vw_edit_item.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/views/vw_master.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/vw_master.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,6 +31,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\brac_qc\assets\css\refactor_css" />
       <recent name="G:\xampp\htdocs\brac_qc\application\views\forms" />
       <recent name="C:\xampp\htdocs\brac_qc\application\views\forms" />
       <recent name="C:\xampp\htdocs\brac_qc\application\views" />
@@ -119,7 +118,8 @@
       <workItem from="1571918060292" duration="2000" />
       <workItem from="1572150494545" duration="1802000" />
       <workItem from="1572159268443" duration="16006000" />
-      <workItem from="1572323305000" duration="20745000" />
+      <workItem from="1572323305000" duration="20986000" />
+      <workItem from="1572409897141" duration="23101000" />
     </task>
     <servers />
   </component>
