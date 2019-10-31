@@ -56,6 +56,7 @@ $route['ajax_call_for_product'] = 'task/ajax_call_for_product';
 $route['ajax_call_for_item'] = 'task/ajax_call_for_item';
 $route['ajax_call_for_item_delete'] = 'task/ajax_call_for_item_delete';
 $route['edit_items'] = 'task/edit_items';
+$route['ajax_call_for_update_item'] = 'task/ajax_call_for_update_item';
 $route['login'] = 'login/login';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

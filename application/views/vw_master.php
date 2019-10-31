@@ -24,7 +24,7 @@
 
 
 
-    <script src="<?php echo base_url(); ?>assets_1/js/jquery-1.11.1.min.js"></script>
+
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -48,7 +48,7 @@
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/xenon-forms.css">
 
 
-    <script src="<?php echo base_url(); ?>assets/js/jquery-1.11.1.min.js"></script>
+
 
 
 
@@ -308,11 +308,14 @@
         <div class="loader-2"></div>
 
     </div>
+    <link rel="stylesheet" href="<?php echo base_url()?>assets/js/datatables/dataTables.bootstrap.css">
+
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/js/select2/select2.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/js/select2/select2-bootstrap.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/js/multiselect/css/multi-select.css">
 
     <!-- Bottom Scripts -->
+
     <script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
     <script src="<?php echo base_url(); ?>assets/js/TweenMax.min.js"></script>
     <script src="<?php echo base_url(); ?>assets/js/resizeable.js"></script>
@@ -333,6 +336,7 @@
     <script src="<?php echo base_url(); ?>assets/js/devexpress-web-14.1/js/dx.chartjs.js"></script>
     <script src="<?php echo base_url(); ?>assets/js/toastr/toastr.min.js"></script>
 
+
     <!-- JavaScripts initializations and stuff -->
     <script src="<?php echo base_url(); ?>assets/js/xenon-custom.js"></script>
 
@@ -346,52 +350,33 @@
 
     <!-- Imported scripts on this page -->
     <!-- for this line have some problem occure in search box -->
-    <script src="<?php echo base_url()?>assets/js/datatables/dataTables.bootstrap.js"></script>
+
 
    <!-- ad something new here -->
 
 
     <!-- Imported styles on this page -->
-    <link rel="stylesheet" href="<?php echo base_url()?>assets_1/js/datatables/dataTables.bootstrap.css">
+
 
     <!-- Bottom Scripts -->
-    <script src="<?php echo base_url()?>assets_1/js/bootstrap.min.js"></script>
-    <script src="<?php echo base_url()?>assets_1/js/TweenMax.min.js"></script>
-    <script src="<?php echo base_url()?>assets_1/js/resizeable.js"></script>
-    <script src="<?php echo base_url()?>assets_1/js/joinable.js"></script>
-    <script src="<?php echo base_url()?>assets_1/js/xenon-api.js"></script>
-    <script src="<?php echo base_url()?>assets_1/js/xenon-toggles.js"></script>
-    <script src="<?php echo base_url()?>assets_1/js/datatables/js/jquery.dataTables.min.js"></script>
+
+
+
+    <script src="<?php echo base_url()?>assets/js/datatables/js/jquery.dataTables.min.js"></script>
 
 
     <!-- Imported scripts on this page -->
-    <script src="<?php echo base_url()?>assets_1/js/datatables/dataTables.bootstrap.js"></script>
+
     <script src="<?php echo base_url()?>assets/js/datatables/dataTables.bootstrap.js"></script>
-    <script src="<?php echo base_url()?>assets_1/js/datatables/yadcf/jquery.dataTables.yadcf.js"></script>
-    <script src="<?php echo base_url()?>assets_1/js/datatables/tabletools/dataTables.tableTools.min.js"></script>
 
 
-<!-- inistion data table -->	<!-- Imported styles on this page -->
-    <link rel="stylesheet" href="<?php echo base_url()?>assets/js/datatables/dataTables.bootstrap.css">
 
+    <!-- Bottom Scripts -->
 
 
 
 
 <!-- add something new -->
-
-
-    <!-- Bottom Scripts -->
-    <script src="<?php echo base_url()?>assets_1/js/bootstrap.min.js"></script>
-    <script src="<?php echo base_url()?>assets_1/js/TweenMax.min.js"></script>
-    <script src="<?php echo base_url()?>assets_1/js/resizeable.js"></script>
-    <script src="<?php echo base_url()?>assets_1/js/joinable.js"></script>
-    <script src="<?php echo base_url()?>assets_1/js/xenon-api.js"></script>
-    <script src="<?php echo base_url()?>assets_1/js/xenon-toggles.js"></script>
-
-
-    <!-- JavaScripts initializations and stuff -->
-    <script src="assets/js/xenon-custom.js"></script>
 
 
 

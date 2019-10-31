@@ -73,7 +73,8 @@
                                 <td><label class="control-label">Design</label></td>
                                 <td><label><input type="checkbox"> </label></td>
                                 <td> <label class="control-label">OR</label></td>
-                                <td><textarea   id="text_area" style="width:95%;  height: 2em;"  placeholder="Remark (Type Text)"></textarea></td>
+                                <td><textarea  id="text_area" style="width:95%;  height: 2em;"  placeholder="Remark (Type Text)"></textarea></td>
+
                                <td> <label class="control-label">Date</td>
                                 <td>	<div class="input-group input-group-sm input-group-minimal"  style="width:50%;">
 										<span class="input-group-addon">

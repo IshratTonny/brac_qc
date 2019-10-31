@@ -162,7 +162,7 @@ public  function  ajax_call_for_item_delete()
                 $item_name = $row->item_name;
                 $item_id = $row->item_id;
                 $item_status = $row->item_status;
-                $box=" <input type=\"checkbox\" name=\"foo\" value=\"bar1\"> <br/>";
+                $box=" <input name=\"selector[]\" id=\"ad_Checkbox1\" class=\"ads_Checkbox\" type=\"checkbox\" value=\"1\" /> <br/>";
                 $view_btn = " <a href=\"#\" class=\"btn btn-info btn-sm btn-icon icon-left\">
                                 VIEW
                             </a>";
@@ -208,6 +208,10 @@ public  function edit_items()
     $this->load->view('vw_master', $data);
 
 
+}
+public function ajax_call_for_update_item()
+{
+   echo ("hellow world");
 }
 
     public function execution_manage()

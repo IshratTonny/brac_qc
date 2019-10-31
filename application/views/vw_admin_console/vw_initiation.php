@@ -1,6 +1,8 @@
 
 <div>
 <div>
+
+
     <!-- lift side 1st table -->
     <div class="panel panel-default" style ="width: 49.6%; text-align:center; float: left;">
         <div class="panel-heading">
@@ -120,10 +122,10 @@
         </div>
         <div>
 
-                <form method="post" action="<?= site_url('edit_items')?>">
+             <!--   <form method="post" action="<?= site_url('edit_items')?>"> -->
+            <form method="post" action="">
 
-
-                <button type="submit" class="btn" name="reg_user">Update Items</button>
+                <button type="submit" class="btn" name="update_button"  id="update_button"  >Update Items</button>
             </form>
         </div>
     </div>
@@ -160,6 +162,37 @@
             cbr_replace();
 
             $state.trigger('change');
+        });
+
+        //catch multipole check box value
+
+        $().ready(function () {
+            $('body').on('click', '#update_button', function () {
+
+                $("#item_tbl tr").each(function () {
+                    var rowSelector = $(this);
+                    if (rowSelector.find("input[type='checkbox']").prop('checked'))
+                    {
+                        //THE MARKUP SHOWING THE ID IS NOT AVAILABLE
+                        //POST A TABLE ENTRY TO CLEAR UP
+                        var id = rowSelector.find('td').first().next().html();
+                        var sendObj = {Id : id};
+                        alert(id);
+                        //USE JSON OBJECT
+                        $.ajax({
+                            url : '<?= site_url('ajax_call_for_update_item') ?>',
+                            dataType: "json",
+                            data: sendObj,
+                            type: "POST",
+                            success: function (response) {
+                                alert(response);
+                            }
+                        });
+
+                    }
+                });
+
+            });
         });
 
         // Script to select all checkboxes
@@ -247,7 +280,7 @@
                 'data': { 'product_id': $product_id},
 
             },
-
+            "aLengthMenu": [[5,10, 25, 50, -1], [5,10, 25, 50, "All"]],
             'autoWidth': false,
             'lengthChange': false,
             'ordering': false,
